@@ -1,0 +1,5 @@
+query getProject($id: ID!) {
+  project(id: $id, isPublic: true) {
+    id
+  }
+}
